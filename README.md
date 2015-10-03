@@ -1,12 +1,14 @@
-how to run program,
-1. install nodejs: nodejs.org
-2. command: node index.js 6 144
-NOTE:
-third argument is the number of rounds,
-forth is the result provided by student,
-program will print all possible number combinations.
+如何运行
+1. 安装 nodejs: nodejs.org
+2. 执行: node index.js 6 144
+
+参数1为第N次猜出数字，参数2为最终猜出的数字
+程序会给出所有的可能的组合
+
+PS, 变量名随便起，参数没有做检查，没有错误处理
 
 
+问题描述：
 一个教授逻辑学的教授，有三个学生，而且三个学生均非常聪明！
 一天教授给他们出了一个题，教授在每个人脑门上贴了一张纸条并告诉他们，每个人的纸条上都写了一个正整数，且某两个数的和等于第三个！（每个人可以看见另两个数，但看不见自己的） 
 教授问第一个学生：你能猜出自己的数吗？回答：不能
